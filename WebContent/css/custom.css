@@ -1,0 +1,50 @@
+.header{
+	background-color: grey;
+	color:white;
+	padding-top: 10px;
+}
+.pics{
+	background-image: url("../images/texture-bw.png");
+	padding: 10px;
+}
+body{
+	text-align:justify;
+}
+.a{
+	padding-top: 15px;
+}
+.footer{
+	background-color: grey;
+	padding-top: 20px;
+	color:white;
+}
+hr.linedesign{
+	width:100px;
+	background-color:LightSkyBlue;
+	height:1px;
+}
+.last{
+	background-color: black;
+	color:white;
+}
+.f{
+	color :white;
+	padding-top: 10px;
+}
+
+.b{
+	background-color: white;
+	color: LightSkyBlue;
+	border-color: LightSkyBlue;
+}
+
+.size{
+	font-size: 17px;
+	color: grey;
+}
+#z{
+	font-size: 20px;
+}
+
+
+
