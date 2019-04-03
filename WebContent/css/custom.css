@@ -11,7 +11,7 @@ body{
 	text-align:justify;
 }
 .a{
-	padding-top: 15px;
+	padding-top: 20px;
 }
 .footer{
 	background-color: grey;
@@ -46,5 +46,41 @@ hr.linedesign{
 	font-size: 20px;
 }
 
+.ml
+{
+	padding: 13px;
+}
 
+
+.prod
+{
+	border: 1px solid #ccc;
+	
+}
+.ml
+{
+	padding: 15px;
+}
+
+.mar-left
+{
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+.dark{
+	background-color: black;
+	color: white;
+}
+.prod img{
+	height: 160px;
+	width: 120px;
+	margin-left: 45px;
+	margin-right: 50px;
+}
+
+
+.foot{
+	color:lightSkyBlue;
+}
 
