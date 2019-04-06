@@ -8,50 +8,44 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Insert title here</title>
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="css/custom.css">
 
 
 </head>
 <body>
-	<div class="container-fluid">
+		<%@ include file="header.jsp" %>
+		<br />
+		<!-- Row 1 ends -->
 
-		<!-- Row 1 starts -->
-		<div class="row f" style="background-color: grey;">
-			<div class="col-md-6">Contact us on +91 4066217777</div>
-			<div class="col-md-6">
-				<div class="col-md-3">
-				<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<span class="glyphicon glyphicon-log-in"> SIGN IN</span>
-					</button></a>
-				</div>
-				<div class="col-md-3">
-					<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<span class="glyphicon glyphicon-user"> SIGN UP</span>
-					</button></a>
-				</div>
-				<div class="col-md-6">
-					<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<i class="fa fa-facebook"></i>
-					</button></a>
-					<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<i class="fa fa-google-plus"></i>
-					</button></a>
-					<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<i class="fa fa-twitter"></i>
-					</button></a>
-					<a href="signIn.jsp" style="color:white"><button class="btn" style="background-color: transparent">
-						<i class="glyphicon glyphicon-envelope"></i>
-					</button></a>
+		<!-- Row 2 starts -->
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<br /> <img src="images/logo.jpg">
+					</div>
+
+					<div class="col-md-7">
+						<ul class="nav navbar-nav">
+							<li><a href="#" style="color: black">ELECTRONICS <span
+									class="caret"></span></a></li>
+							<li><a href="#" style="color: black">MEN <span
+									class="caret"></span></a></li>
+							<li><a href="#" style="color: black">WOMEN <span
+									class="caret"></span></a></li>
+							<li><a href="#" style="color: black">BABY &amp; KIDS <span
+									class="caret"></span></a></li>
+							<li><a href="#" style="color: black">HOME &amp;
+									FURNITURE <span class="caret"></span>
+							</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 		<br/>
-		<!-- Row 1 ends -->
-
-		<!-- Row 2 starts -->
 
 		<div class="row">
 			<div class="pics">
@@ -65,15 +59,15 @@
 						</div>
 						<div class="col-md-4 a">
 							<p>
-								<a href="#">HOME</a>/<a href="#" style="color: black">NEW
-									ACCOUNT</a>/<a href="#" style="color: black">SIGN IN</a>
+								<a href="homepage.jsp">HOME</a>/<a href="signIn.jsp" style="color: black">NEW
+									ACCOUNT</a>/<a href="signIn.jsp" style="color: black">SIGN IN</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
+		
 		<!-- Row 4 starts -->
 		<div class="row">
 			<div class="col-md-1"></div>
@@ -95,9 +89,8 @@
 				<b><h3>NEW ACCOUNT</h3></b></br> Not our registered customer yet?</br> </br> With
 				Registration with us new world of fashion, fantastic discounts and
 				much more opens to you!The whole process will not take more than a
-				minute.</br> If you have any questions please feel free to <a href="#">
-					contact us</a> our customer service center is
-				available for you 24/7.
+				minute.<br/> If you have any questions please feel free to <a href="#">
+					contact us</a> our customer service center is available for you 24/7.
 				<hr>
 				<form id="myform" action="register" method="post">
 					<label for="name">Name</label> <input type="text"
@@ -173,9 +166,9 @@
 			<footer>
 				<div class="container">
 					<div class="row f">
-					<br/>
+						<br />
 						<div class="col-md-3">
-						
+
 							<p>
 								<b>ABOUT US</b>
 							</p>
